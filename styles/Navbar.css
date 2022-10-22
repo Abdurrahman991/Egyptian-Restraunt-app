@@ -1,0 +1,60 @@
+.Navbar {
+  height:80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background-color: rgb(133, 36, 36);
+  height: 50px;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
+.Navbar .Leftside {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 2px;
+}
+
+.Navbar .Leftside img {
+  width: 120px;
+  height: 50;
+}
+.Navbar .Righside  {
+  flex: 80%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+
+.Navbar a {
+  color: rgb(255, 255, 255);
+  text-decoration:wavy;
+  margin: 20px;
+  background-color: none;
+
+}
+
+.Navbar  button {
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
+
+.Navbar #close .hiddenLinks {
+  display: none;
+}
+
+.Navbar #open a {
+  width: 70px;
+  margin: 5px;
+}
